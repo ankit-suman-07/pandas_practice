@@ -28,6 +28,7 @@
 # Explanation:
 # A DataFrame was created on top of student_data, with two columns named student_id and age.
 
+from typing import List
 import pandas as pd
 
 def createDataframe(student_data: List[List[int]]) -> pd.DataFrame:
